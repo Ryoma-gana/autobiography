@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <a href="index.html">Index</a>
+
+        <form action="">
+            <label>Name: </label>
+            <input type="text" 
+                   name="name" 
+                   placeholder="Enter Your Name"
+                   maxlength="5"
+                   minlength="1" />
+            <br />
+
+            <label for="password">Password: </label>
+            <input type="password"
+                   name="password"
+                   id="password"
+                   placeholder="Enter your password"/> 
+
+            <br />
+
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Femail">Female
+
+            <br />
+
+            <label>Field of Interested</label><br />
+            <input type="checkbox" name="interest" value="Programing" />Rrograming
+            <br />
+            <input type="checkbox" name="interest" value="Design" />Design
+            <br />
+            <input type="checkbox" name="interest" value="Business" />Business
+            <br />
+
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter your email">
+            <br />
+
+            <label>Comments:</label><br />
+            <textarea rows="5" 
+                      cols="50" 
+                      placeholder="Do you have any comments?" 
+                      name="comments"></textarea>
+
+            <br />
+
+            <label>City</label>
+            <select name="city">
+                <option value="Cebu">Cebu</option>
+                <option value="Tokyo">Tokyo</option>
+                <option value="Bangkok">Bangkok</option>
+            </select>
+
+
+
+            <input type="reset" value="Reset the form" /> 
+                <!--valueはテキスト内の文字  -->
+            <input type="submit" value="Send it" />       
+                   
+        </form>
+    </body>
+</html>
